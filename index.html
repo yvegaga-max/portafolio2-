@@ -1,234 +1,196 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Description"
-        content="Portafolio y hoja de vida de J. Eduardo, desarrollador magister en Ciencia de Datos">
-    <title>Portafolio | J.Eduardo</title>
+    <meta name="Description" content="Portafolio de Yeraldin Vega García">
+    <title>Yeraldin Vega</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
     <header>
         <nav>
             <div>
-                <a href="#hero">JEduardo.dev</a>
+                <a href="#hero">YVG</a>
             </div>
             <ul>
                 <li><a href="#about">Sobre mí</a></li>
                 <li><a href="#skills">Habilidades</a></li>
-                <li><a href="#experience">Experiencia</a></li>
                 <li><a href="#projects">Proyectos</a></li>
                 <li><a href="#education">Educación</a></li>
                 <li><a href="#contact">Contacto</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
+
+        <!-- HERO -->
         <section id="hero">
-            <div>
-                <p>Hola, soy</p>
-                <h1>J.Eduardo</h1>
-                <h2>Frontend Developer / Full Stack Developer / Software Engineer / Mgs. Data Cience</h2>
-                <p>
-                    Desarrollo Webs modernas, funcionales y centradas en el usuario. Me especializo en crear productos
-                    escalables con tecnologías como HTML, CSS, JavaScript, React y Node.js...
-                </p>
+            <div class="hero-inner">
+
+                <div class="hero-foto">
+                    
+                    <img src="./assets/r2.jpeg" alt="Foto de Yeraldin" /> 
+                </div>
+
+                <div class="hero-texto">
+                    <p class="hero-sub">Un poco de mí</p>
+                    <h1>Hola,<br>soy Yeraldin</h1>
+                    <p class="hero-desc">
+                        Tengo 19 años, me gusta dibujar y estoy aprendiendo a programar.
+                        Soy una persona introvertida que esta en busca de el profesionalismo en su vida. 
+                    </p>
+                    <div class="hero-botones">
+                        <a href="#education" class="btn-hero btn-primario">Currículum</a>
+                        <a href="#projects"  class="btn-hero btn-secundario">Proyectos</a>
+                        <a href="#contact"   class="btn-hero btn-secundario">Contacto</a>
+                    </div>
+                </div>
+
             </div>
         </section>
+
+        <hr class="sep">
+
+        <!-- SOBRE MÍ -->
         <section id="about">
             <header>
                 <h2>Sobre mí</h2>
+                <div class="linea-titulo"></div>
             </header>
             <article>
                 <p>
-                    Soy desarrollador con experiencia en construcción de interfaces interactivas, accesibles y de alto
-                    rendimiento. Me enfoco en productos digitales útiles, combinando lógica, diseño y buenas prácticas
-                    de
-                    desarrollo.
+                    Me llamo Yeraldin Vega García, nací el 19 de diciembre del 2006.
+                    Desde pequeña quise mejorar mi creatividad atravez del dibujo  — soy bastante introvertida, me gusta la naturaleza y  me gusta explorar a mi propio ritmo.
                 </p>
                 <p>
-                    He trabajo para empresas del sector innovador, en proyectos webs, dashboards, e-commerce,
-                    aplicaciones
-                    empresariales y productos digitales, colaborando con equipos multidisciplinarios.
-                    Actualmento soy docente de la UFPSO.
+                    En el 2024 me gradué de bachiller y ahora estoy en mi segundo semestre
+                    universitario. 
                 </p>
             </article>
         </section>
+
+        <hr class="sep">
+
+        <!-- HABILIDADES -->
         <section id="skills">
             <header>
-                <h2>Habilidades</h2>
+                <h2>Lo que estoy aprendiendo</h2>
+                <div class="linea-titulo"></div>
             </header>
             <div>
                 <article>
-                    <h3>Frontend</h3>
+                    <h3>Diseño web</h3>
                     <ul>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>Javascript</li>
-                        <li>React / Vue / Angular/ Next</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Diseño</li>
                     </ul>
                 </article>
                 <article>
-                    <h3>Backend</h3>
+                    <h3>Programación</h3>
                     <ul>
-                        <li>Node.js</li>
-                        <li>Python</li>
-                        <li>Goland</li>
+                        <li>JavaScript</li>
+                        <li>Java</li>
+                        <li>Lógica</li>
                     </ul>
                 </article>
                 <article>
-                    <h3>Bases de datos</h3>
+                    <h3>Lo que me gusta mas</h3>
                     <ul>
-                        <li>MySQL</li>
-                        <li>PostgreSQL</li>
-                        <li>MongoDB</li>
-                        <li>Firebase</li>
-                    </ul>
-                </article>
-                <article>
-                    <h3>Herramientas</h3>
-                    <ul>
-                        <li>Git / GitHub</li>
-                        <li>Figma</li>
+                        <li>Dibujo </li>
+                        <li>Creatividad</li>
+                        <li>Atención al detalle</li>
                     </ul>
                 </article>
             </div>
         </section>
-        <section id="experience">
-            <header>
-                <h2>Experiencia</h2>
-            </header>
-            <article>
-                <h3>Frontend Developer - UFPSO</h3>
-                <p><strong>2020 - Actualidad</strong></p>
-                <p>
-                    Desarrollo de interfaces responsivas, optimización de rendimiento y colabocación con equipos de
-                    diseño y
-                    backend para lanzar nuevas funcionalidades.
-                </p>
-            </article>
-            <article>
-                <h3>Desarrollador Web Freelance</h3>
-                <p><strong>2020 - Actualidad</strong></p>
-                <p>
-                    Creación de sitios web corporativos, landing pages y tiendas online para clientes de distintos
-                    sectores,
-                    mejorando su experiencia digital hacia la inteligencia de negocio.
-                </p>
-            </article>
-        </section>
+
+        <hr class="sep">
+
+        <!-- PROYECTOS -->
         <section id="projects">
             <header>
-                <h2>Proyectos destacados</h2>
+                <h2>Proyectos</h2>
+                <div class="linea-titulo"></div>
             </header>
-
             <div>
                 <article>
-                    <img src="./assets/analytics_dashboard.png" alt="Captura del proyecto 1" />
-                    <h3>Dashboard de Analítica</h3>
-                    <p>
-                        Aplicación para visualización de métricas en tiempo real con autenticación,
-                        gráficos y panel administrativo.
-                    </p>
-                    <p><strong>Tecnologías:</strong> React, Node.js, MongoDB</p>
-                    <div>
-                        <a href="#">Demo</a>
-                        <a href="#">GitHub</a>
+                    <img src="./assets/r.jpeg" alt="Proyecto mantenimiento" />
+                    <div class="proj-body">
+                        <h3>Proyecto de mantenimiento</h3>
+                        <p>Una página web desarrollada como ejercicio parcial. Fue uno de mis primeros proyectos completos, donde apliqué lo que iba aprendiendo.</p>
+                        <p class="tags">HTML · CSS · JavaScript</p>
+                        <div class="proj-links">
+                            <a href="https://yvegaga-max.github.io/parcial_mantenimiento_proyecto/" target="_blank" rel="noopener noreferrer">Ver</a>
+                            <a href="https://github.com/yvegaga-max/parcial_mantenimiento_proyecto" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </div>
                     </div>
                 </article>
 
                 <article>
-                    <img src="./assets/ecommerce.png" alt="Captura del proyecto 2" />
-                    <h3>E-commerce</h3>
-                    <p>
-                        Tienda virtual con catálogo, carrito de compras, pasarela de pago e interfaz
-                        optimizada para móvil.
-                    </p>
-                    <p><strong>Tecnologías:</strong> Next.js, Stripe, PostgreSQL</p>
-                    <div>
-                        <a href="#">Demo</a>
-                        <a href="#">GitHub</a>
-                    </div>
-                </article>
-
-                <article>
-                    <img src="./assets/landing.png" alt="Captura del proyecto 3" />
-                    <h3>Landing para SaaS</h3>
-                    <p>
-                        Diseño y desarrollo de una landing orientada a conversión con enfoque en UX,
-                        performance y SEO.
-                    </p>
-                    <p><strong>Tecnologías:</strong> HTML, CSS, JavaScript</p>
-                    <div>
-                        <a href="#">Demo</a>
-                        <a href="#">GitHub</a>
+                    <img src="./assets/r.jpeg" alt="Ejercicios Java" />
+                    <div class="proj-body">
+                        <h3>Ejercicios de Java</h3>
+                        <p>Un repositorio donde fui guardando mis prácticas de Java: lógica, condiciones, ciclos… cada ejercicio etc!!!!</p>
+                        <p class="tags">Java</p>
+                        <div class="proj-links">
+                            <a href="https://github.com/yvegaga-max" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </div>
                     </div>
                 </article>
             </div>
         </section>
+
+        <hr class="sep">
+
+        <!-- EDUCACIÓN -->
         <section id="education">
             <header>
-                <h2>Educación y certificaciones</h2>
+                <h2>Educación</h2>
+                <div class="linea-titulo"></div>
             </header>
 
             <article>
-                <h3>Ingeniería de Sistemas</h3>
-                <p>Universidad UFPSO - 2013 - 2020</p>
+                <h3>Bachiller académico</h3>
+                <p>Graduada en 2024</p>
             </article>
 
             <article>
-                <h3>Máster en Ciencia de Datos aplicada a la Inteligencia de Negocios</h3>
-                <p>Universidad Europea del Atlántico (UNEATLANTICO) - 2026</p>
-            </article>
-
-            <article>
-                <h3>Maestría en Ciencia de Datos aplicada a la Inteligencia de Negocios</h3>
-                <p>Universidad Internacional Iberoamericana - UNINI México (UNINI-MX) - 2026</p>
+                <h3>ingenieria en Sistemas (en curso)</h3>
+                <p>Segundo semestre · 2026</p>
             </article>
         </section>
+
+        <hr class="sep">
+
+        <!-- CONTACTO -->
         <section id="contact">
             <header>
                 <h2>Contacto</h2>
+                <div class="linea-titulo"></div>
             </header>
 
             <p>
-                ¿Tienes una vacante, proyecto o colaboración en mente? Conversemos.
+                estas son mis redes sociales..
             </p>
 
             <ul>
-                <li><a href="mailto:designocana@email.com">designocana@gmail.com</a></li>
-                <li><a href="https://github.com/jewar21" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                <li><a href="www.linkedin.com/in/jeduardo-guerrod" target="_blank"
-                        rel="noopener noreferrer">LinkedIn</a>
-                </li>
-                <li><a href="https://www.instagram.com/wolfyissus/" target="_blank"
-                        rel="noopener noreferrer">Instagram</a></li>
+                <li><a href="https://wa.me/573043653702" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+                <li><a href="https://github.com/yvegaga-max" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                <li><a href="https://www.instagram.com/yen12_19" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                <li><a href="https://www.tiktok.com/@yen_1219" target="_blank" rel="noopener noreferrer">TikTok</a></li>
             </ul>
-
-            <form action="#" method="post">
-                <div>
-                    <label for="name">Nombre</label>
-                    <input type="text" id="name" name="name" required />
-                </div>
-
-                <div>
-                    <label for="email">Correo</label>
-                    <input type="email" id="email" name="email" required />
-                </div>
-
-                <div>
-                    <label for="message">Mensaje</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                </div>
-
-                <button type="submit">Enviar mensaje</button>
-            </form>
         </section>
+
     </main>
+
     <footer>
-        <p>&copy; 2026 J.Eduardo. Todos los derechos reservados.</p>
+        <p>© 2026 Yeraldin Vega García · Todos los derechos reservadosu.u </p>
     </footer>
 </body>
 
